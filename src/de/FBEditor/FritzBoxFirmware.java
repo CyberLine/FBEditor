@@ -2,7 +2,7 @@ package de.FBEditor;
 
 /**
  * Class modelling firmware and box information
- * 
+ *
  */
 public class FritzBoxFirmware {
 
@@ -16,7 +16,7 @@ public class FritzBoxFirmware {
 
     /**
      * Firmware Constructor using Strings
-     * 
+     *
      * @param boxtype
      * @param majorFirmwareVersion
      * @param minorFirmwareVersion
@@ -33,7 +33,7 @@ public class FritzBoxFirmware {
         this.modFirmwareVersion = modFirmwareVersion;
         this.language = language;
     }
-    
+
 	public String getFritzboxName() {
 		return FritzboxName;
 	}
@@ -89,7 +89,7 @@ public class FritzBoxFirmware {
 	public String getBoxName() {
 
  	      System.out.println( "Debug FritzBoxFirmware: " + FritzboxName + " -> " + boxtype );
- 	    
+
           if ((FritzboxName.length() > 0) && (boxtype > 0)) {
            return FritzboxName;
           } else {
@@ -222,6 +222,8 @@ public class FritzBoxFirmware {
              return "FRITZ!Box 3272";
             case 131:
              return "FRITZ!Box 7362 SL";
+            case 141:
+             return "FRITZ!Box 6490 Cable";
             default:
              return "unknown";
            }
