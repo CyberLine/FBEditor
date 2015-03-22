@@ -16,12 +16,8 @@ public class FritzBoxFirmware {
 
     /**
      * Firmware Constructor using Strings
-<<<<<<< HEAD
-     *
-=======
      * 
      * @param FritzboxName
->>>>>>> ecaacb98383398de56c22e1bf63f4cf935fa5e76
      * @param boxtype
      * @param majorFirmwareVersion
      * @param minorFirmwareVersion
